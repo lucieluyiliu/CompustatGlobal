@@ -1,0 +1,191 @@
+exchgcd,ISO,excntry,exchgdesc,ismajor
+307,BH,BHR,Bahrain Bourse,1
+309,CI,CIV,Bourse Regionale Des Valeurs Mobilieres,1
+310,IR,IRN,Tehran Stock Exchange,1
+311,NA,NAM,Namibian Stock Exchange,1
+313,EC,ECU,Bolsa De Valores De Guayaquil,1
+314,BD,BGD,Dhaka Stock Exchange Ltd,1
+315,QA,QAT,Qatar Exchange,1
+318,AE,ARE,Abu Dhabi Securities Exchange,1
+329,KZ,KAZ,Kazakhstan Stock Exchange,1
+353,KR,KOR,Korea New Exchange,0
+323,AE,ARE,Dubai Financial Market,1
+325,TT,TTO,Trinidad and Tobago Stock Exchange,1
+327,VN,VNM,HoChiMinh Stock Exchange,0
+328,VN,VNM,Hanoi Stock Exchange,1
+331,AE,ARE,Nasdaq Dubai,0
+332,RU,RUS,MICEX Stock Exchange,1
+333,RS,SRB,Belgrade Stock Exchange,1
+335,UG,UGA,Uganda Securities Exchange,1
+336,PS,PSE,Palestine Exchange,1
+21,US,USA,Cboe BZX Exchange,0
+337,TZ,TZA,Dar es Salaam Stock Exchange,1
+338,MW,MWI,Malawi Stock Exchange,1
+342,CN,CHN,Shanghai-Hong Kong Stock Connect (NB),1
+341,CN,HKG,Hong Kong-Shanghai Stock Connect (SB),0
+346,BA,BIH,Sarajevo Stock Exchange,0
+347,CN,CHN,Shenzhen-Hong Kong Stock Connect (NB),1
+344,SE,SWE,Spotlight Stock Market,0
+345,GG,GGY,The International Stock Exchange,1
+348,CN,HKG,Hong Kong-Shenzhen Stock Connect (SB),0
+349,GB,GBR,BATS Chi-X Europe,0
+352,AU,AUS,Chi-X Australia,0
+339,IT,ITA,AIM Italiana,0
+343,AU,AUS,National Stock Exchange of Australia,0
+256,SE,SWE,NASDAQ OMX Nordic,1
+257,DE,DEU,Boerse Stuttgart,0
+258,ID,IDN,Surabaya,0
+260,TW,TWN,Taiwan Stock Exchange,1
+261,EE,EST,NASDAQ OMX Tallinn,1
+262,IL,ISR,Tel Aviv Stock Exchange,1
+264,JP,JPN,Tokyo Stock Exchange,1
+266,TN,TUN,Bourse De Tunis,1
+269,NA,NAM,Unlisted Securities Market,0
+270,ES,ESP,Bolsa De Valencia,0
+271,MT,MLT,Malta Stock Exchange,1
+273,AT,AUT,Wiener Boerse AG,1
+274,LT,LTU,NASDAQ OMX Vilnius,1
+276,PL,POL,Warsaw Stock Exchange,1
+277,NZ,NZL,Wellington,0
+278,HR,HRV,Zagreb Stock Exchange,1
+280,CH,CHE,Zurich,1
+283,GB,GBR,Fund Manager,0
+283,GB,LUX,Fund Manager,0
+286,FR,FRA,NYSE Euronext Paris,1
+0,NA,CAN,Subsidiary/Private,0
+0,NA,USA,Subsidiary/Private,0
+2,NA,USA,Consolidated Parent or Tracking Stock Company,0
+3,NA,USA,Leveraged Buyout,0
+293,JP,JPN,Tokyo Stock Exchange JASDAQ,0
+295,RO,ROU,RASDAQ,0
+298,KR,KOR,Korea Exchange KOSDAQ,1
+300,KW,KWT,Kuwait Stock Exchange,1
+301,OM,OMN,Muscat Securities Market,1
+303,TW,TWN,TAISDAQ,0
+305,SE,SWE,Nordic Growth Market,0
+306,SA,SAU,Saudi Stock Exchange,1
+15,US,USA,Nasdaq BX,0
+16,US,USA,NYSE Chicago,0
+17,US,USA,NYSEArca,1
+18,US,USA,Nasdaq PHLX,0
+19,US,USA,Other-OTC,1
+20,NA,NA,Unlisted Evaluated Equity,0
+4,NA,USA,"Additional Company Record-PreSFAS 94, ProForma",0
+7,CA,CAN,Toronto Stock Exchange,1
+8,CA,CAN,Montreal Exchange,0
+9,CA,CAN,TSX Venture Exchange,1
+10,CA,CAN,Alberta Stock Exchange,0
+11,US,USA,New York Stock Exchange,1
+12,US,USA,NYSE American,1
+13,US,USA,OTC Bulletin Board,1
+14,US,USA,Nasdaq Stock Market,1
+171,DE,DEU,XETRA,1
+172,IE,IRL,Irish Stock Exchange All Market,1
+174,TR,TUR,Istanbul Stock Exchange,1
+175,ID,IDN,Indonesia Stock Exchange,1
+176,ID,IDN,Jakarta Alien Market,0
+177,ZA,ZAF,Johannesburg Stock Exchange,1
+178,PK,PAK,Karachi Stock Exchange Guarantee Limited,1
+179,UA,UKR,PFTS Stock Exchange,1
+180,JM,JAM,Jamaica Stock Exchange,1
+181,MY,MYS,Bursa Malaysia,1
+185,NG,NGA,Nigerian Stock Exchange,1
+100,GH,GHA,Ghana Stock Exchange,1
+101,AU,AUS,Adelaide,0
+103,JO,JOR,Amman Stock Exchange,1
+104,NL,NLD,NYSE Euronext Amsterdam,1
+106,AU,AUS,ASX All Markets,1
+107,GR,GRC,Athens Exchange SA Cash Market,1
+110,TH,THA,Stock Exchange of Thailand,1
+111,TH,THA,Stock Exchange of Thailand Foreign Board,1
+112,ES,ESP,Bolsa De Barcelona,0
+114,LB,LBN,Bourse De Beyrouth Beirut Stock Exchange,1
+115,DE,DEU,Boerse Berlin,0
+116,CH,CHE,Berne Stock Exchange,0
+118,CO,COL,Bolsa De Valores De Colombia,1
+120,IN,IND,BSE Ltd,1
+122,SK,SVK,Bratislava Stock Exchange,1
+127,RU,BWA,Broker,0
+127,RU,RUS,Broker,0
+132,BE,BEL,NYSE Euronext Brussels,1
+133,RO,ROU,Spot Regulated Market BVB,1
+134,HU,HUN,Budapest Stock Exchange,1
+135,AR,ARG,Bolsa De Comercio De Buenos Aires,1
+136,EG,EGY,Egyptian Exchange,1
+138,VE,VEN,Bolsa De Valores De Caracas,1
+139,MA,MAR,Casablanca Stock Exchange,1
+142,LK,LKA,Colombo Stock Exchange,1
+144,DK,DNK,OMX Nordic Exchange Copenhagen AS,1
+149,DE,DEU,Boerse Duesseldorf,0
+150,ES,AUT,AIAF Mercado De Renta Fija,0
+150,ES,NLD,AIAF Mercado De Renta Fija,0
+150,ES,LBR,AIAF Mercado De Renta Fija,1
+150,ES,ITA,AIAF Mercado De Renta Fija,0
+150,ES,ISR,AIAF Mercado De Renta Fija,0
+150,ES,GBR,AIAF Mercado De Renta Fija,0
+150,ES,FRA,AIAF Mercado De Renta Fija,0
+150,ES,BEL,AIAF Mercado De Renta Fija,0
+151,CH,CHE,Swiss Exchange,1
+154,DE,DEU,Deutsche Boerse AG,1
+156,JP,JPN,Fukuoka Stock Exchange,0
+157,NA,KOR,Fund Managers,0
+157,NA,TWN,Fund Managers,0
+157,NA,THA,Fund Managers,0
+158,BW,BWA,Botswana Stock Exchange,1
+159,CH,CHE,Geneva,0
+163,DE,DEU,Hanseatische Wertpapierboerse Hamburg,0
+164,BM,BMU,Bermuda Stock Exchange Ltd,1
+165,DE,DEU,Niedersaechsische Boerse Zu Hannover,0
+166,ZW,ZWE,Zimbabwe Stock Exchange,1
+167,FI,FIN,NASDAQ OMX Helsinki Ltd,1
+170,HK,HKG,Hong Kong Exchanges and Clearing Ltd,1
+189,GB,GBR,NYSE Euronext Liffe,0
+190,FR,FRA,Lille,0
+191,PE,PER,Bolsa De Valores De Lima,1
+192,PT,PRT,NYSE Euronext Lisbon,1
+193,SI,SVN,Ljubljana Stock Exchange Official Market,1
+194,GB,GBR,London Stock Exchange,1
+197,ZM,ZMB,Lusaka Stock Exchange,1
+198,LU,LUX,Luxembourg Stock Exchange,1
+199,FR,FRA,Lyon,0
+201,ES,ESP,Bolsa De Madrid,1
+203,PH,PHL,Philippine Stock Exchange Inc,1
+205,FR,FRA,Marseille,0
+208,MX,MEX,Bolsa Mexicana De Valores Mexican Stock Exchan,1
+209,IT,ITA,Borsa Italiana Electronic Share Market,1
+210,UY,URY,Bolsa De Valores De Montevideo,1
+211,RU,RUS,Moscow Stock Exchange,0
+212,DE,DEU,Boerse Muenchen,0
+213,JP,JPN,Nagoya Stock Exchange,0
+214,KE,KEN,Nairobi Stock Exchange,1
+216,FR,FRA,Nancy,0
+219,IN,IND,National Stock Exchange of India,1
+221,CY,CYP,Cyprus Stock Exchange,1
+225,NZ,NZL,New Zealand Exchange Ltd,1
+226,GB,GBR,NEX Exchange,0
+227,JP,JPN,Osaka Securities Exchange,1
+228,NO,NOR,Oslo Bors ASA,1
+229,NA,JPN,OTC,0
+229,NA,SWE,OTC,0
+229,NA,SGP,OTC,0
+229,NA,NOR,OTC,0
+231,FR,FRA,Paris,1
+233,MU,MUS,Stock Exchange of Mauritius Ltd,1
+235,CZ,CZE,Prague Stock Exchange,1
+236,LV,LVA,NASDAQ OMX Riga,1
+237,IS,ISL,NASDAQ OMX Iceland,1
+238,BR,BRA,Rio de Janeiro,1
+241,RU,RUS,Moscow Exchange Derivatives and Classica Marke,1
+242,CL,CHL,Santiago Stock Exchange,1
+243,BR,BRA,BM and F Bovespa SA Bolsa De Valores Mercadori,1
+244,JP,JPN,Sapporo Securities Exchange,0
+245,TW,TWN,TAIPEI EXCHANGE,1
+246,GB,GBR,SEAQ International,0
+247,GB,GBR,SEATS,0
+248,KR,KOR,Korea Exchange Stock Market,1
+249,CN,CHN,Shanghai Stock Exchange,1
+250,CN,CHN,Shenzhen Stock Exchange,1
+251,CG,SGP,Singapore Exchange,1
+252,CG,SGP,Singapore Alien Market,0
+253,BG,BGR,Bulgarian Stock Exchange,1
+269,NA,NA,Unlisted Securities Market,0
