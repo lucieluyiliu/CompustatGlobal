@@ -1,6 +1,7 @@
 # CompustatGlobal
 
 SAS code for calculating global equity return and constructing country portfolios
+
 This repository contains the SAS code for calculating monthly USD returns of individual stocks in the Compustat Global universe. 
 Filters and data clearning procedure follows Chaieb Langlois and Scaillet JFE 2021.
 
