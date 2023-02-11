@@ -138,7 +138,6 @@ proc sql;
 quit;
 
 
-		
 /*select primary security*/		
 proc sql;
 create table sec_history as
@@ -147,35 +146,36 @@ union all
 select * from compd.g_sec_history;
 
 
-
-proc sql;
-create table returnd_selected as
-select a.gvkey,a.iid,
-datadate, 
-riusd,
-issuemvusd 
-/* case when loc in ("CAN", "USA") then cat("PRIHIST",loc) else "PRIHISTROW" end as majorflag */
-from totalreturnd a , compustat_selected b 
-where a.gvkey=b.gvkey
-and a.iid=b.iid;
-
-proc sql; select count(*) from returnd_selected;
-
-
 /*keep major security*/
+/*here some companies have both US major security and international major security*/
+proc sql; create table firmlocation as select distinct gvkey, loc from compustat_selected; run;
+
 proc sql;
 create table returnd_selected as
-select a.gvkey,a.iid,
+select t1.gvkey,t1.iid,
 datadate, 
 riusd,
-issuemvusd,
-case when b.itemvalue =a.iid then 1 else 0 end as ismajor
-from returnd_selected a left join sec_history b 
-on (a.gvkey=b.gvkey
-and a.iid=b.iid
-and a.datadate between b.effdate and case when b.thrudate is not null then b.thrudate else input('01/01/3000',mmddyy10.) end
-and substr(b.item,1,7)='PRIHIST')
+ri,
+mvusd,
+mv,
+price,
+volume,
+case when t2.itemvalue =t1.iid then 1 else 0 end as ismajor
+from returnd_selected t1 
+left join (select a.*, case when b.loc in ('USA', 'CAN') then loc else 'ROW' end as loc from sec_history a, firmlocation b where a.gvkey=b.gvkey) t2 
+on (t1.gvkey=t2.gvkey
+and t1.iid=t2.iid
+and t1.datadate between t2.effdate and case when t2.thrudate is not null then t2.thrudate else input('01/01/3000',mmddyy10.) end
+and t2.item=cat('PRIHIST', loc ))
 where calculated ismajor=1;
+
+/*here some companies have both US major security and international major security*/
+/*sec_history also contains some errounous entries with duplicate starting dates, in this case just remove duplicate*/
+
+
+proc sort data=returnd_selected nodupkey;
+	by gvkey iid datadate;
+run;
 
 /* proc sql; */
 /* select count(*) from returnd_selected0 where gvkey not in (select gvkey from sec_history); */
@@ -197,10 +197,6 @@ where calculated ismajor=1;
 /*   */
 /*  proc sql; select * from home.compustat_selected where gvkey='025365'; */
 
-
-proc sort data=returnd_selected;
-by gvkey iid datadate;
-run;
 
 proc sql; create table home.returnd_selected as select * from returnd_selected;
 
